@@ -15,4 +15,20 @@ public class Student {
 
     @Column(name = "registration_date")
     private Date registrationDate;
+
+    public String getName() {
+        return name;
+    }
+
+    public int getId() {
+        return id;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public Date getRegistrationDate() {
+        return registrationDate;
+    }
 }
